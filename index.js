@@ -16,6 +16,6 @@ class Circle {
   }
 
   set radius(radius){
-    this._radius = radius
+    this._radius = radius;
   }
 }
