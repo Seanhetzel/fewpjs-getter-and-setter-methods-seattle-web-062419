@@ -20,6 +20,6 @@ class Circle {
   }
 
   set circumference(diameter){
-    this._radius = circle.diameter / 2
+    this.radius = circle.diameter / 2
   }
 }
