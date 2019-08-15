@@ -19,7 +19,7 @@ class Circle {
     this._diameter = diameter;
   }
 
-  set circumference(diameter){
-    this.radius = circle.diameter / 2
+  set circumference(this.diameter){
+    this.radius = this.diameter / 2
   }
 }
